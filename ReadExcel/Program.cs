@@ -2,11 +2,15 @@
 
 namespace ReadExcel
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private const string DummyExcelFilePath =
+            @"C:\Users\onurt\Desktop\.NET WEB API\ReadExcel\ReadExcel\Data\DummyExcelFile.xlsx";
+
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DummyExcelFilePath.ReadExcel();
+            Console.ReadKey();
         }
     }
 }
