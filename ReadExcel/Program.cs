@@ -1,4 +1,5 @@
 ﻿using System;
+using ReadExcel.Extensions;
 
 namespace ReadExcel
 {
